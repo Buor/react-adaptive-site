@@ -1,0 +1,32 @@
+@import 'reset_css.scss';
+@import 'vars.scss';
+
+@font-face {
+    src:url('./Fonts/gilroy-semibold.ttf');
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+
+body {
+    background-color: $bg;
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+@media(max-width: $lg) {
+    .container {
+        max-width: 890px;
+    }
+}
+@media(max-width: $md) {
+    .container {
+        max-width: 600px;
+    }
+}
+
+
+@import 'main/main_navbar.scss';
+@import 'main/main_head.scss';

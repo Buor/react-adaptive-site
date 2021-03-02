@@ -1,0 +1,46 @@
+$bg: #0f1145;
+$gray: #b5b5b5;
+$orange: #F2994A;
+$orange_dark: #d47f34;
+$transparent: rgba(0,0,0,0);
+
+//Breakpoints
+$xl: 1440px;
+$lg: 1130px;
+$md: 950px;
+$md2: 600px;
+$sm: 500px;
+$xs: 320px;
+
+%btns_main {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@mixin btn_filled($pad_t,$pad_l) {
+    @extend %btns_main;
+    padding: $pad_t $pad_l;
+    color: #fff;
+    background-color: $orange;
+
+    &:hover {
+        background-color: $orange_dark;
+    }
+}
+@mixin btn_outlined($pad_t,$pad_l) {
+    @extend %btns_main;
+    padding: ($pad_t - 2px) ($pad_l - 2px);
+    color: $orange;
+    background-color: $transparent;
+    border: 2px solid $orange;
+    &:hover {
+        color: #fff;
+        background-color: $orange;
+    }
+}
+// font-family: 'Inter', sans-serif;
+// font-family: 'Rubik', sans-serif;

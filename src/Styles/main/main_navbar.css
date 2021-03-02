@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+}
+.navbar-left ul {
+  display: flex;
+  list-style: none;
+  font-family: "Gilroy";
+}
+.navbar-left ul li + li {
+  margin-left: 20px;
+}
+.navbar-left ul li {
+  color: #b5b5b5;
+}
