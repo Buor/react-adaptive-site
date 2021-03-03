@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/react-adaptive-site/static/css/main.a9e247e2.chunk.css",
-    "main.js": "/react-adaptive-site/static/js/main.09dc9ee9.chunk.js",
-    "main.js.map": "/react-adaptive-site/static/js/main.09dc9ee9.chunk.js.map",
+    "main.css": "/react-adaptive-site/static/css/main.bf696a6b.chunk.css",
+    "main.js": "/react-adaptive-site/static/js/main.e4a8fec8.chunk.js",
+    "main.js.map": "/react-adaptive-site/static/js/main.e4a8fec8.chunk.js.map",
     "runtime-main.js": "/react-adaptive-site/static/js/runtime-main.d6a40a43.js",
     "runtime-main.js.map": "/react-adaptive-site/static/js/runtime-main.d6a40a43.js.map",
-    "static/js/2.22b0a0bb.chunk.js": "/react-adaptive-site/static/js/2.22b0a0bb.chunk.js",
-    "static/js/2.22b0a0bb.chunk.js.map": "/react-adaptive-site/static/js/2.22b0a0bb.chunk.js.map",
+    "static/js/2.983530c2.chunk.js": "/react-adaptive-site/static/js/2.983530c2.chunk.js",
+    "static/js/2.983530c2.chunk.js.map": "/react-adaptive-site/static/js/2.983530c2.chunk.js.map",
     "index.html": "/react-adaptive-site/index.html",
-    "static/css/main.a9e247e2.chunk.css.map": "/react-adaptive-site/static/css/main.a9e247e2.chunk.css.map",
-    "static/js/2.22b0a0bb.chunk.js.LICENSE.txt": "/react-adaptive-site/static/js/2.22b0a0bb.chunk.js.LICENSE.txt",
+    "static/css/main.bf696a6b.chunk.css.map": "/react-adaptive-site/static/css/main.bf696a6b.chunk.css.map",
+    "static/js/2.983530c2.chunk.js.LICENSE.txt": "/react-adaptive-site/static/js/2.983530c2.chunk.js.LICENSE.txt",
     "static/media/Frame-1.2df658c2.svg": "/react-adaptive-site/static/media/Frame-1.2df658c2.svg",
     "static/media/Frame-2.01042793.svg": "/react-adaptive-site/static/media/Frame-2.01042793.svg",
     "static/media/Frame-3.af2acbb5.svg": "/react-adaptive-site/static/media/Frame-3.af2acbb5.svg",
     "static/media/Frame-4.543ac665.svg": "/react-adaptive-site/static/media/Frame-4.543ac665.svg",
     "static/media/Frame-5.279b2424.svg": "/react-adaptive-site/static/media/Frame-5.279b2424.svg",
     "static/media/Frame.5ae0ae6f.svg": "/react-adaptive-site/static/media/Frame.5ae0ae6f.svg",
-    "static/media/styles.css": "/react-adaptive-site/static/media/man.50ecb39e.png"
+    "static/media/styles.css": "/react-adaptive-site/static/media/man.50ecb39e.png",
+    "static/media/stats.d257cb70.png": "/react-adaptive-site/static/media/stats.d257cb70.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d6a40a43.js",
-    "static/js/2.22b0a0bb.chunk.js",
-    "static/css/main.a9e247e2.chunk.css",
-    "static/js/main.09dc9ee9.chunk.js"
+    "static/js/2.983530c2.chunk.js",
+    "static/css/main.bf696a6b.chunk.css",
+    "static/js/main.e4a8fec8.chunk.js"
   ]
 }
