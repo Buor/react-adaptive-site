@@ -1,26 +1,26 @@
 @import "./../vars.scss";
 
 .navbar {
-    margin-top: 90px;
+    padding-top: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 @media (max-width: $lg) {
     .navbar {
-        margin-top: 45px;
+        padding-top: 45px;
     }
 }
 @media (max-width: $md) {
     .navbar {
         display: block;
-        margin-top: 30px;
+        padding-top: 30px;
     }
 }
 @media (max-width: $xs) {
     .navbar {
         width: 250px;
-        margin: 45px auto;
+        padding: 45px auto;
     }
 }
 
@@ -110,39 +110,4 @@
     }
 }
 
-.companies {
-    padding: 0 63px;
-    display: flex;
-    margin-top: 103px;
-    opacity: 0.3;
 
-    img + img {
-        margin-left: 74px;
-    }
-    @media (max-width: $lg) {
-        img + img {
-            margin-left: 37px;
-        }
-    }
-
-    
-    @media (max-width: $md) {
-        margin-top: 50px;
-        img + img {
-            margin: 0;
-        }
-        flex-direction: column;
-        img {
-            width: 117px;
-            &:nth-child(2n+1) {
-                margin-right: 150px;
-            }
-            &:nth-child(2n) {
-                margin-left: 150px;
-            }
-        }
-    }
-    @media (max-width: $sm) {
-        padding: 0;
-    }
-}

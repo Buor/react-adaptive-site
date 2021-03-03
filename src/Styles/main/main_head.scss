@@ -5,10 +5,9 @@
     margin-top: 135px;
     
     &::before {
-        
         position: absolute;
         content: "";
-        background-image: url('./man.png');
+        background-image: url('Images/man.png');
         background-repeat: no-repeat;
         width: 723.71px;
         height: 579.57px;
@@ -34,11 +33,7 @@
     }
 }
 .head__title {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 44px;
-    color: #99efd0;
+    @include title1(44px);
     width: 530px;
     margin-bottom: 20px;
     @media(max-width: $md) {

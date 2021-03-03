@@ -1,8 +1,10 @@
 $bg: #0f1145;
 $gray: #b5b5b5;
-$orange: #F2994A;
+$orange: #f2994a;
+$purple: #8476aa;
+$green: #99efd0;
 $orange_dark: #d47f34;
-$transparent: rgba(0,0,0,0);
+$transparent: rgba(0, 0, 0, 0);
 
 //Breakpoints
 $xl: 1440px;
@@ -11,9 +13,16 @@ $md: 950px;
 $md2: 600px;
 $sm: 500px;
 $xs: 320px;
-
-%btns_main {
-    font-family: 'Rubik', sans-serif;
+@mixin title1($fz) {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $fz;
+    line-height: 50px;
+    color: $green;
+}
+@mixin btns_main {
+    font-family: "Rubik", sans-serif;
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 2px;
@@ -21,18 +30,20 @@ $xs: 320px;
     border-radius: 4px;
     cursor: pointer;
 }
-@mixin btn_filled($pad_t,$pad_l) {
-    @extend %btns_main;
+
+@mixin btn_filled($pad_t, $pad_l) {
+    @include btns_main;
     padding: $pad_t $pad_l;
     color: #fff;
     background-color: $orange;
+    box-shadow: -2px 3px 30px 0px rgba(242, 153, 74, 0.33);
 
     &:hover {
         background-color: $orange_dark;
     }
 }
-@mixin btn_outlined($pad_t,$pad_l) {
-    @extend %btns_main;
+@mixin btn_outlined($pad_t, $pad_l) {
+    @include btns_main;
     padding: ($pad_t - 2px) ($pad_l - 2px);
     color: $orange;
     background-color: $transparent;
@@ -41,6 +52,15 @@ $xs: 320px;
         color: #fff;
         background-color: $orange;
     }
+}
+@mixin font_gilroy1($fz, $let_sp) {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: $fz;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: $let_sp;
+    color: $purple;
 }
 // font-family: 'Inter', sans-serif;
 // font-family: 'Rubik', sans-serif;

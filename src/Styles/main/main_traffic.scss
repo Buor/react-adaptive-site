@@ -1,0 +1,43 @@
+@import "./../vars.scss";
+
+.traffic {
+    position: relative;
+    padding-left: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    &__info {
+        margin-top: 57px;
+        margin-right: 58px;
+        width: 470px;
+        &-title {
+            @include title1(42px);
+            span {
+                color: $orange;
+            }
+        }
+        &-desc {
+            margin-top: 32px;
+            font-family: Gilroy;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            color: $purple;
+        }
+        &-btn {
+            margin-top: 43px;
+            @include btn_filled(14px, 30px);
+        }
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        transform: rotate(-120deg) scaleY(1,-1);
+   
+        width: 384px;
+        height: 566px;
+        background: url('Images/flying_dots.png') no-repeat;
+        left: -17%;
+        top: 27.5%;
+
+    }
+}

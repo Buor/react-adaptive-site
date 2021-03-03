@@ -1,0 +1,24 @@
+.traffic {
+  margin-top: 160px;
+  display: flex;
+}
+
+.traffic__info {
+  margin-right: 58px;
+}
+
+.traffic__info-btn {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 14px 30px;
+  color: #fff;
+  background-color: #f2994a;
+}
+.traffic__info-btn:hover {
+  background-color: #d47f34;
+}

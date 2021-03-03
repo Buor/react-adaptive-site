@@ -1,0 +1,34 @@
+@import "./../vars.scss";
+.next-project {
+    z-index: 100;
+    position: relative;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &::after {
+        z-index: 5;
+        content: "";
+        position: absolute;
+        width: 1203px;
+        height: 492px;
+        
+        top: 61px;
+        background: no-repeat url('Images/bg_dots.png');
+    }
+}
+.next-project-title {
+    text-align: center;
+    width: 770px;
+    @include title1(42px);
+    span {
+        color: $orange;
+    }
+}
+.next-project-button {
+    position: relative;
+    z-index: 10;
+    margin-top: 46px;
+    @include btn_filled(17px,32px);
+}

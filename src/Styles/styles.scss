@@ -4,12 +4,29 @@
 @font-face {
     src:url('./Fonts/gilroy-semibold.ttf');
     font-family: 'Gilroy';
+    font-weight: 600;
+}
+@font-face {
+    src:url('./Fonts/gilroy-bold.ttf');
+    font-family: 'Gilroy';
     font-weight: 700;
 }
 
 body {
-    background-color: $bg;
+    background-color: #040d3e;
     overflow-x: hidden;
+}
+.bg1 {
+    background: rgb(59,29,96);
+    background: linear-gradient(195deg, rgba(59,29,96,1) 0%, rgba(4,13,62,1) 75%);
+ 
+}
+.bg2 {
+    margin: 0 auto;
+    background: no-repeat url(Images/bg2.png);
+    background-size: cover;
+
+    padding-bottom: 160px;
 }
 .container {
     max-width: 1130px;
@@ -30,3 +47,8 @@ body {
 
 @import 'main/main_navbar.scss';
 @import 'main/main_head.scss';
+@import 'main/main_companies.scss';
+@import 'main/main_choice.scss';
+@import 'main/main_traffic.scss';
+@import 'main/main_ways.scss';
+@import 'main/main_next-project.scss';
