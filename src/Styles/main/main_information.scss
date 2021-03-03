@@ -1,0 +1,50 @@
+@import "./../vars.scss";
+.information {
+    margin-top: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__info {
+        width: 512px;
+        &-title {
+            @include title1(26px);
+            letter-spacing: 0.325px;
+        }
+        &-subtitle {
+            width: 414px;
+            margin-top: 32px;
+            @include font_gilroy1(15px,0.2px);
+        }
+        &-row {
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
+            .row-el {
+                position: relative;
+                width: 224px;
+                &::before {
+                    top: -34px;
+                    position: absolute;
+                    content: '';
+                    width: 36px;
+                    height: 36px;
+                    background-repeat: no-repeat cover;
+                }
+                &:nth-child(1)::before {
+                    background-image: url(Images/icons/knife.png);
+                }
+                &:nth-child(2)::before {
+                    background-image: url(Images/icons/lte2.png);
+                }
+                &-title {
+                    @include title1(15px);
+                    letter-spacing: 0.2px;
+                }
+                &-desc {
+                    margin-top: 8px;
+                    @include font_gilroy1(15px,0.2px);
+                }
+            }
+        }
+    }
+}

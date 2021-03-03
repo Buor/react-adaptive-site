@@ -67,6 +67,11 @@ textarea,
 select {
   font: inherit;
 }
+/* input {
+  margin: 0;
+  bottom: 0;
+  padding: 0;
+} */
 
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {

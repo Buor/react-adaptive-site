@@ -58,9 +58,20 @@ $xs: 320px;
     font-weight: 600;
     font-size: $fz;
     line-height: 20px;
-    text-align: center;
+
     letter-spacing: $let_sp;
     color: $purple;
+}
+%input_font {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    opacity: 0.2;
 }
 // font-family: 'Inter', sans-serif;
 // font-family: 'Rubik', sans-serif;

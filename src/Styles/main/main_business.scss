@@ -1,0 +1,25 @@
+@import "./../vars.scss";
+.business {
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+    &__info {
+        width: 470px;
+        &-title {
+            @include title1(42px);
+            span {
+                color: $orange;
+            }
+        }
+        &-desc {
+            margin-top: 32px;
+            @include font_gilroy1(15px, 0.5px);
+        }
+        &-btn {
+            margin-top: 46px;
+            @include btn_filled(17px, 30px);
+        }
+    }
+}

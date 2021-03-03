@@ -90,6 +90,18 @@ a {
     scroll-behavior: auto !important;
   }
 }
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
 @font-face {
   src: url("./Fonts/gilroy-semibold.ttf");
   font-family: "Gilroy";
@@ -133,6 +145,18 @@ body {
     max-width: 600px;
   }
 }
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
 .navbar {
   padding-top: 90px;
   display: flex;
@@ -262,6 +286,18 @@ body {
     justify-content: center;
   }
 }
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
 .head {
   width: 540px;
   position: relative;
@@ -501,6 +537,18 @@ body {
   color: #705aad;
 }
 
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
 .companies {
   padding: 0 63px;
   display: flex;
@@ -538,6 +586,18 @@ body {
   .companies {
     padding: 0;
   }
+}
+
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
 }
 
 .choice {
@@ -625,6 +685,18 @@ body {
   width: 247px;
 }
 
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
 .traffic {
   position: relative;
   padding-left: 32px;
@@ -683,6 +755,18 @@ body {
   top: 27.5%;
 }
 
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
 .ways {
   display: flex;
   justify-content: center;
@@ -710,7 +794,6 @@ body {
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
-  text-align: center;
   letter-spacing: 0.2px;
   color: #8476aa;
 }
@@ -749,9 +832,20 @@ body {
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
-  text-align: center;
   letter-spacing: 0.2px;
   color: #8476aa;
+}
+
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
 }
 
 .next-project {
@@ -805,4 +899,251 @@ body {
 }
 .next-project-button:hover {
   background-color: #d47f34;
+}
+
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
+.business {
+  margin-top: 400px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  justify-content: space-between;
+}
+.business__info {
+  width: 470px;
+}
+.business__info-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  color: #99efd0;
+}
+.business__info-title span {
+  color: #f2994a;
+}
+.business__info-desc {
+  margin-top: 32px;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: #8476aa;
+}
+.business__info-btn {
+  margin-top: 46px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 17px 30px;
+  color: #fff;
+  background-color: #f2994a;
+  box-shadow: -2px 3px 30px 0px rgba(242, 153, 74, 0.33);
+}
+.business__info-btn:hover {
+  background-color: #d47f34;
+}
+
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
+.information {
+  margin-top: 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.information__info {
+  width: 512px;
+}
+.information__info-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 50px;
+  color: #99efd0;
+  letter-spacing: 0.325px;
+}
+.information__info-subtitle {
+  width: 414px;
+  margin-top: 32px;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #8476aa;
+}
+.information__info-row {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.information__info-row .row-el {
+  position: relative;
+  width: 224px;
+}
+.information__info-row .row-el::before {
+  top: -34px;
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat cover;
+}
+.information__info-row .row-el:nth-child(1)::before {
+  background-image: url(Images/icons/knife.png);
+}
+.information__info-row .row-el:nth-child(2)::before {
+  background-image: url(Images/icons/lte2.png);
+}
+.information__info-row .row-el-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 50px;
+  color: #99efd0;
+  letter-spacing: 0.2px;
+}
+.information__info-row .row-el-desc {
+  margin-top: 8px;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #8476aa;
+}
+
+.reasons-field-form-wrapper input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
+.reasons {
+  margin-top: 195px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.reasons::before {
+  z-index: 1;
+  width: 2030px;
+  height: 540px;
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: -50px;
+  transform: translateX(-50%);
+  background: no-repeat url(Images/bg_lines.png);
+  background-size: cover;
+}
+.reasons-field {
+  background: rgba(60, 62, 125, 0.19);
+  -webkit-backdrop-filter: blur(134px);
+          backdrop-filter: blur(134px);
+  border-radius: 5px;
+  z-index: 10;
+  position: relative;
+  width: 940px;
+  height: 324px;
+  padding: 51px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reasons-field-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #99efd0;
+  color: #f2994a;
+}
+.reasons-field-subtitle {
+  width: 396px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  color: #95a1bb;
+}
+.reasons-field-form-wrapper {
+  position: relative;
+  margin-top: 23px;
+  display: flex;
+}
+.reasons-field-form-wrapper input {
+  width: 298px;
+  bottom: 0;
+  border: 0;
+  margin-right: -10px;
+  background: #2f3162;
+  border-radius: 5px;
+  outline: none;
+  text-indent: 16px;
+}
+.reasons-field-form-wrapper button {
+  position: relative;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 18px 43px;
+  color: #fff;
+  background-color: #f2994a;
+  box-shadow: -2px 3px 30px 0px rgba(242, 153, 74, 0.33);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.reasons-field-form-wrapper button:hover {
+  background-color: #d47f34;
+}
+.reasons-field-footer {
+  margin-top: 16px;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #8476aa;
 }

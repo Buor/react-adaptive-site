@@ -1,0 +1,71 @@
+@import "./../vars.scss";
+.reasons {
+    margin-top: 195px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    &::before {
+        z-index: 1;
+        width: 2030px;
+        height: 540px;
+        position: absolute;
+        content: "";
+        left: 50%;
+        top: -50px;
+        transform: translateX(-50%);
+        background: no-repeat url(Images/bg_lines.png);
+        background-size: cover;
+        // background-color: pink;
+    }
+    &-field {
+        background: rgba(60, 62, 125, 0.19);
+        backdrop-filter: blur(134px);
+        border-radius: 5px;
+        z-index: 10;
+        position: relative;
+        width: 940px;
+        height: 324px;
+        padding: 51px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-title {
+            @include title1(36px);
+            color: $orange;
+        }
+        &-subtitle {
+            width: 396px;
+            margin-top: 20px;
+            text-align: center;
+            font-family: Rubik;
+            font-size: 16px;
+            color: #95a1bb;
+        }
+        &-form-wrapper {
+            position: relative;
+            margin-top: 23px;
+            display: flex;
+            input {
+                width: 298px;
+                bottom: 0;
+                border: 0;
+                margin-right: -10px;
+                background: rgb(47,49,98);
+                border-radius: 5px;
+                outline: none;
+                text-indent: 16px;
+                @extend %input_font;
+            }
+            button {
+                position: relative;
+                @include btn_filled(18px, 43px);
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+        &-footer {
+            margin-top: 16px;
+            @include font_gilroy1(14px, 0.2px);
+        }
+    }
+}

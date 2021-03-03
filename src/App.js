@@ -5,6 +5,9 @@ import BusinessTrafic from "./Components/Main/Main_BusinessTrafic";
 import Companies from "./Components/Main/Main_Companies";
 import Ways from "./Components/Main/Main_Ways";
 import NextProject from "./Components/Main/Main_NextProject";
+import Business from "./Components/Main/Main_Business";
+import Information from "./Components/Main/Main_Information";
+import Reasons from "./Components/Main/Main_Reasons";
 function App() {
     return (
         <>
@@ -22,6 +25,9 @@ function App() {
                 <BusinessTrafic />
                 <Ways/>
                 <NextProject/>
+                <Business/>
+                <Information/>
+                <Reasons/>
             </div>
         </>
     );
