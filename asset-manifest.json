@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-adaptive-site/static/css/main.cea4000e.chunk.css",
-    "main.js": "/react-adaptive-site/static/js/main.3722e1bb.chunk.js",
-    "main.js.map": "/react-adaptive-site/static/js/main.3722e1bb.chunk.js.map",
+    "main.css": "/react-adaptive-site/static/css/main.df6ab933.chunk.css",
+    "main.js": "/react-adaptive-site/static/js/main.d17306fa.chunk.js",
+    "main.js.map": "/react-adaptive-site/static/js/main.d17306fa.chunk.js.map",
     "runtime-main.js": "/react-adaptive-site/static/js/runtime-main.d6a40a43.js",
     "runtime-main.js.map": "/react-adaptive-site/static/js/runtime-main.d6a40a43.js.map",
     "static/js/2.983530c2.chunk.js": "/react-adaptive-site/static/js/2.983530c2.chunk.js",
     "static/js/2.983530c2.chunk.js.map": "/react-adaptive-site/static/js/2.983530c2.chunk.js.map",
     "index.html": "/react-adaptive-site/index.html",
-    "static/css/main.cea4000e.chunk.css.map": "/react-adaptive-site/static/css/main.cea4000e.chunk.css.map",
+    "static/css/main.df6ab933.chunk.css.map": "/react-adaptive-site/static/css/main.df6ab933.chunk.css.map",
     "static/js/2.983530c2.chunk.js.LICENSE.txt": "/react-adaptive-site/static/js/2.983530c2.chunk.js.LICENSE.txt",
     "static/media/Frame-1.2df658c2.svg": "/react-adaptive-site/static/media/Frame-1.2df658c2.svg",
     "static/media/Frame-2.01042793.svg": "/react-adaptive-site/static/media/Frame-2.01042793.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.d6a40a43.js",
     "static/js/2.983530c2.chunk.js",
-    "static/css/main.cea4000e.chunk.css",
-    "static/js/main.3722e1bb.chunk.js"
+    "static/css/main.df6ab933.chunk.css",
+    "static/js/main.d17306fa.chunk.js"
   ]
 }
