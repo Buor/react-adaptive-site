@@ -128,7 +128,11 @@ body {
   background-size: cover;
   padding-bottom: 160px;
 }
-
+@media (max-width: 1130px) {
+  .bg2 {
+    background: none;
+  }
+}
 .container {
   max-width: 1130px;
   margin: 0 auto;
@@ -568,6 +572,7 @@ body {
   .companies {
     margin-top: 50px;
     flex-direction: column;
+    align-items: center;
   }
   .companies img + img {
     margin: 0;
@@ -626,6 +631,11 @@ body {
 .choice__subtitle + .choice__row {
   margin-top: 50px;
 }
+@media (max-width: 950px) {
+  .choice__subtitle {
+    text-align: center;
+  }
+}
 
 .choice__row {
   width: 1000px;
@@ -634,6 +644,20 @@ body {
 }
 .choice__row + .choice__row {
   margin-top: 35px;
+}
+@media (max-width: 1130px) {
+  .choice__row {
+    width: 750px;
+    flex-wrap: wrap;
+    padding-left: 50px;
+  }
+}
+@media (max-width: 950px) {
+  .choice__row {
+    padding-left: 60px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .choice__row-el {
@@ -668,6 +692,18 @@ body {
 .choice__row-el.row_2:nth-child(3)::before {
   background: no-repeat url("Images/icons/bulb.png");
 }
+@media (max-width: 1130px) {
+  .choice__row-el + .choice__row-el:nth-child(3) {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 950px) {
+  .choice__row-el + .choice__row-el {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+}
 
 .choice__row-el-title {
   font-family: Gilroy;
@@ -683,6 +719,11 @@ body {
   font-size: 14px;
   color: #8476aa;
   width: 247px;
+}
+@media (max-width: 500px) {
+  .choice__row-el-desc {
+    width: 220px;
+  }
 }
 
 .reasons-field-form-wrapper input {
@@ -704,6 +745,11 @@ body {
   justify-content: center;
   margin-top: 110px;
 }
+@media (max-width: 950px) {
+  .traffic {
+    margin-top: 0px;
+  }
+}
 .traffic__info {
   margin-top: 57px;
   margin-right: 58px;
@@ -720,6 +766,12 @@ body {
 .traffic__info-title span {
   color: #f2994a;
 }
+@media (max-width: 500px) {
+  .traffic__info-title {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
 .traffic__info-desc {
   margin-top: 32px;
   font-family: Gilroy;
@@ -727,7 +779,15 @@ body {
   letter-spacing: 0.5px;
   color: #8476aa;
 }
+@media (max-width: 600px) {
+  .traffic__info-desc {
+    width: 300px;
+    margin: 32px auto 0;
+  }
+}
 .traffic__info-btn {
+  z-index: 10;
+  position: relative;
   margin-top: 43px;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -744,15 +804,42 @@ body {
 .traffic__info-btn:hover {
   background-color: #d47f34;
 }
+@media (max-width: 600px) {
+  .traffic__info {
+    text-align: center;
+    margin: 0 0 40px 0;
+  }
+}
 .traffic::after {
   position: absolute;
   content: "";
   transform: rotate(-120deg) scaleY(1, -1);
-  width: 384px;
+  width: 400px;
   height: 566px;
   background: url("Images/flying_dots.png") no-repeat;
   left: -17%;
   top: 27.5%;
+}
+@media (max-width: 950px) {
+  .traffic::after {
+    left: -35%;
+  }
+}
+@media (max-width: 950px) {
+  .traffic img {
+    position: relative;
+    z-index: 10;
+    align-self: center;
+    height: 317.1428571429px;
+    min-width: 305px;
+  }
+}
+@media (max-width: 600px) {
+  .traffic {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
 }
 
 .reasons-field-form-wrapper input {
@@ -797,10 +884,27 @@ body {
   letter-spacing: 0.2px;
   color: #8476aa;
 }
+@media (max-width: 600px) {
+  .ways__subtitle {
+    width: auto;
+  }
+}
 .ways__row {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 950px) {
+  .ways__row {
+    flex-wrap: wrap;
+    width: 750px;
+  }
+}
+@media (max-width: 600px) {
+  .ways__row {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .ways__row-el {
   width: 290px;
@@ -817,6 +921,21 @@ body {
 }
 .ways__row-el:nth-child(3) .ways__row-el-desc {
   width: 200px;
+}
+@media (max-width: 1130px) {
+  .ways__row-el + .ways__row-el {
+    margin-left: 0;
+  }
+}
+@media (max-width: 950px) {
+  .ways__row-el:nth-child(3) {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .ways__row-el + .ways__row-el {
+    margin-top: 25px;
+  }
 }
 .ways__row-el-title {
   font-family: "Inter", sans-serif;
@@ -866,6 +985,11 @@ body {
   top: 61px;
   background: no-repeat url("Images/bg_dots.png");
 }
+@media (max-width: 950px) {
+  .next-project::after {
+    background-size: cover;
+  }
+}
 
 .next-project-title {
   text-align: center;
@@ -879,6 +1003,11 @@ body {
 }
 .next-project-title span {
   color: #f2994a;
+}
+@media (max-width: 950px) {
+  .next-project-title {
+    width: auto;
+  }
 }
 
 .next-project-button {
@@ -960,6 +1089,23 @@ body {
 .business__info-btn:hover {
   background-color: #d47f34;
 }
+@media (max-width: 600px) {
+  .business__info {
+    text-align: center;
+    margin-bottom: 25px;
+    width: auto;
+  }
+}
+@media (max-width: 950px) {
+  .business img {
+    width: 366.6666666667px;
+  }
+}
+@media (max-width: 600px) {
+  .business {
+    flex-direction: column;
+  }
+}
 
 .reasons-field-form-wrapper input {
   font-family: Inter;
@@ -991,6 +1137,12 @@ body {
   color: #99efd0;
   letter-spacing: 0.325px;
 }
+@media (max-width: 950px) {
+  .information__info-title {
+    text-align: center;
+    width: auto;
+  }
+}
 .information__info-subtitle {
   width: 414px;
   margin-top: 32px;
@@ -1000,6 +1152,12 @@ body {
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #8476aa;
+}
+@media (max-width: 950px) {
+  .information__info-subtitle {
+    text-align: center;
+    width: auto;
+  }
 }
 .information__info-row {
   margin-top: 100px;
@@ -1017,6 +1175,12 @@ body {
   width: 36px;
   height: 36px;
   background-repeat: no-repeat cover;
+}
+@media (max-width: 950px) {
+  .information__info-row .row-el::before {
+    left: 0;
+    top: 0;
+  }
 }
 .information__info-row .row-el:nth-child(1)::before {
   background-image: url(Images/icons/knife.png);
@@ -1041,6 +1205,49 @@ body {
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #8476aa;
+}
+@media (max-width: 950px) {
+  .information__info-row .row-el-desc {
+    text-align: left;
+    width: auto;
+  }
+}
+@media (max-width: 950px) {
+  .information__info-row .row-el {
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .information__info-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 950px) {
+  .information__info {
+    text-align: center;
+    width: auto;
+  }
+}
+@media (max-width: 1130px) {
+  .information img {
+    width: 400px;
+  }
+}
+@media (max-width: 950px) {
+  .information img {
+    width: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .information img {
+    width: 250px;
+  }
+}
+@media (max-width: 950px) {
+  .information {
+    flex-direction: column;
+  }
 }
 
 .reasons-field-form-wrapper input {
@@ -1096,6 +1303,16 @@ body {
   color: #99efd0;
   color: #f2994a;
 }
+@media (max-width: 950px) {
+  .reasons-field-title {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .reasons-field-title {
+    font-size: 24px;
+  }
+}
 .reasons-field-subtitle {
   width: 396px;
   margin-top: 20px;
@@ -1103,6 +1320,12 @@ body {
   font-family: Rubik;
   font-size: 16px;
   color: #95a1bb;
+}
+@media (max-width: 500px) {
+  .reasons-field-subtitle {
+    font-size: 14px;
+    width: auto;
+  }
 }
 .reasons-field-form-wrapper {
   position: relative;
@@ -1118,6 +1341,11 @@ body {
   border-radius: 5px;
   outline: none;
   text-indent: 16px;
+}
+@media (max-width: 500px) {
+  .reasons-field-form-wrapper input {
+    width: 220px;
+  }
 }
 .reasons-field-form-wrapper button {
   position: relative;
@@ -1138,6 +1366,26 @@ body {
 .reasons-field-form-wrapper button:hover {
   background-color: #d47f34;
 }
+@media (max-width: 500px) {
+  .reasons-field-form-wrapper button {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 14px 17px;
+    color: #fff;
+    background-color: #f2994a;
+    box-shadow: -2px 3px 30px 0px rgba(242, 153, 74, 0.33);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .reasons-field-form-wrapper button:hover {
+    background-color: #d47f34;
+  }
+}
 .reasons-field-footer {
   margin-top: 16px;
   font-family: Gilroy;
@@ -1146,4 +1394,48 @@ body {
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #8476aa;
+}
+@media (max-width: 500px) {
+  .reasons-field-footer {
+    text-align: center;
+  }
+}
+@media (max-width: 950px) {
+  .reasons-field {
+    padding: 25px 0;
+  }
+}
+@media (max-width: 500px) {
+  .reasons-field {
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+    background: #181a50;
+  }
+}
+
+.footer {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.footer__item {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #8d8d8d;
+}
+.footer__item + .footer__item {
+  padding-left: 32px;
+}
+@media (max-width: 500px) {
+  .footer__item {
+    font-size: 11px;
+  }
+}
+.footer__item:hover {
+  color: cyan;
+  cursor: pointer;
 }

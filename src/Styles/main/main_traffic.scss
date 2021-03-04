@@ -1,11 +1,13 @@
 @import "./../vars.scss";
-
 .traffic {
     position: relative;
     padding-left: 32px;
     display: flex;
     justify-content: center;
     margin-top: 110px;
+    @media (max-width: $md) {
+        margin-top: 0px;
+    }
     &__info {
         margin-top: 57px;
         margin-right: 58px;
@@ -15,6 +17,10 @@
             span {
                 color: $orange;
             }
+            @media (max-width: $sm) {
+                width: 300px;
+                margin: 0 auto;
+            }
         }
         &-desc {
             margin-top: 32px;
@@ -22,22 +28,48 @@
             font-size: 15px;
             letter-spacing: 0.5px;
             color: $purple;
+            @media (max-width: $md2) {
+                width: 300px;
+                margin: 32px auto 0;
+            }
         }
         &-btn {
+            z-index: 10;
+            position: relative;
             margin-top: 43px;
             @include btn_filled(14px, 30px);
+        }
+        @media (max-width: $md2) {
+            text-align: center;
+            margin: 0 0 40px 0;
         }
     }
     &::after {
         position: absolute;
         content: "";
-        transform: rotate(-120deg) scaleY(1,-1);
-   
-        width: 384px;
+        transform: rotate(-120deg) scaleY(1, -1);
+
+        width: 400px;
         height: 566px;
-        background: url('Images/flying_dots.png') no-repeat;
+        background: url("Images/flying_dots.png") no-repeat;
         left: -17%;
         top: 27.5%;
-
+        @media (max-width: $md) {
+            left: -35%;
+        }
+    }
+    img {
+        @media (max-width: $md) {
+            position: relative;
+            z-index: 10;
+            align-self: center;
+            height: 444/1.4 + px;
+            min-width: 305px;
+        }
+    }
+    @media (max-width: $md2) {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
     }
 }

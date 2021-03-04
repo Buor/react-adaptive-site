@@ -16,6 +16,10 @@
         
         top: 61px;
         background: no-repeat url('Images/bg_dots.png');
+        @media (max-width: $md) {
+            background-size: cover;
+            
+        }
     }
 }
 .next-project-title {
@@ -24,6 +28,9 @@
     @include title1(42px);
     span {
         color: $orange;
+    }
+    @media (max-width: $md) {
+        width: auto;
     }
 }
 .next-project-button {

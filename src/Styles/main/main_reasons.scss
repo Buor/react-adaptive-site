@@ -32,6 +32,12 @@
         &-title {
             @include title1(36px);
             color: $orange;
+            @media (max-width: $md) {
+                text-align: center;
+            }
+            @media (max-width: $sm) {
+                font-size: 24px;
+            }
         }
         &-subtitle {
             width: 396px;
@@ -40,6 +46,10 @@
             font-family: Rubik;
             font-size: 16px;
             color: #95a1bb;
+            @media (max-width: $sm) {
+                font-size: 14px;
+                width: auto;
+            }
         }
         &-form-wrapper {
             position: relative;
@@ -50,22 +60,41 @@
                 bottom: 0;
                 border: 0;
                 margin-right: -10px;
-                background: rgb(47,49,98);
+                background: rgb(47, 49, 98);
                 border-radius: 5px;
                 outline: none;
                 text-indent: 16px;
                 @extend %input_font;
+                @media (max-width: $sm) {
+                    width: 220px;
+                }
             }
             button {
                 position: relative;
                 @include btn_filled(18px, 43px);
                 border-top-left-radius: 0;
                 border-bottom-left-radius: 0;
+                @media (max-width: $sm) {
+                    @include btn_filled(14px, 17px);
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
             }
         }
         &-footer {
             margin-top: 16px;
             @include font_gilroy1(14px, 0.2px);
+            @media (max-width: $sm) {
+                text-align: center;
+            }
+        }
+        @media (max-width: $md) {
+            padding: 25px 0;
+        }
+        @media (max-width: $sm) {
+            backdrop-filter: none;
+            background: rgb(24, 26, 80);
         }
     }
+  
 }

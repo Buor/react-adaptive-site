@@ -9,7 +9,7 @@ export default function BusinessTrafic() {
                 </div>
                 <div className="traffic__info-desc">
                     We are committed to processing the information in order to
-                    contact you and talk about your project.{" "}
+                    contact you and talk about your project.
                 </div>
                 <button className="traffic__info-btn">Learn more</button>
             </div>

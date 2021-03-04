@@ -27,6 +27,13 @@ body {
     background-size: cover;
 
     padding-bottom: 160px;
+    @media (max-width: $lg) {
+        background: none;
+    }
+    @media (max-width: $md) {
+        // background: no-repeat url(Images/bg2.png);
+        // background-size: cover;
+    }
 }
 .container {
     max-width: 1130px;
@@ -55,3 +62,4 @@ body {
 @import 'main/main_business.scss';
 @import 'main/main_information.scss';
 @import 'main/main_reasons.scss';
+@import 'main/main_footer.scss';

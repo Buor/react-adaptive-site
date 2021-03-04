@@ -9,11 +9,19 @@
         &-title {
             @include title1(26px);
             letter-spacing: 0.325px;
+            @media (max-width: $md) {
+                text-align: center;
+                width: auto;
+            }
         }
         &-subtitle {
             width: 414px;
             margin-top: 32px;
-            @include font_gilroy1(15px,0.2px);
+            @include font_gilroy1(15px, 0.2px);
+            @media (max-width: $md) {
+                text-align: center;
+                width: auto;
+            }
         }
         &-row {
             margin-top: 100px;
@@ -25,10 +33,14 @@
                 &::before {
                     top: -34px;
                     position: absolute;
-                    content: '';
+                    content: "";
                     width: 36px;
                     height: 36px;
                     background-repeat: no-repeat cover;
+                    @media (max-width: $md) {
+                        left: 0;
+                        top: 0;
+                    }
                 }
                 &:nth-child(1)::before {
                     background-image: url(Images/icons/knife.png);
@@ -42,9 +54,38 @@
                 }
                 &-desc {
                     margin-top: 8px;
-                    @include font_gilroy1(15px,0.2px);
+                    @include font_gilroy1(15px, 0.2px);
+                    @media (max-width: $md) {
+                        text-align: left;
+                        width: auto;
+                    }
+                }
+                @media (max-width: $md) {
+                    padding-bottom: 25px;
                 }
             }
+            @media (max-width: $md2) {
+                flex-direction: column;
+                align-items: center;
+            }
         }
+        @media (max-width: $md) {
+            text-align: center;
+            width: auto;
+        }
+    }
+    img {
+        @media (max-width: $lg) {
+            width: 400px;
+        }
+        @media (max-width: $md) {
+            width: 400px;
+        }
+        @media (max-width: $md2) {
+            width: 250px;
+        }
+    }
+    @media (max-width: $md) {
+        flex-direction: column;
     }
 }

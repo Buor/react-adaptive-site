@@ -22,6 +22,7 @@
             margin: 0;
         }
         flex-direction: column;
+        align-items: center;
         img {
             width: 117px;
             &:nth-child(2n+1) {

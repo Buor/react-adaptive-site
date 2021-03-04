@@ -17,6 +17,9 @@
     & + .choice__row {
         margin-top: 50px;
     }
+    @media (max-width: $md) {
+        text-align: center;
+    }
 }
 .choice__row {
     & + & {
@@ -25,6 +28,18 @@
     width: 1000px;
     display: flex;
     justify-content: center;
+    @media (max-width: $lg) {
+        // flex-direction: column;
+        // align-items: center;
+        width: 750px;
+        flex-wrap: wrap;
+        padding-left: 50px;
+    }
+    @media (max-width: $md) {
+        padding-left: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .choice__row-el {
     position: relative;
@@ -57,6 +72,21 @@
     &.row_2:nth-child(3)::before {
         background: no-repeat url('Images/icons/bulb.png');
     }
+    @media (max-width: $lg) {
+        &+& {
+            &:nth-child(3) {
+                margin-left: 0;
+                margin-top: 25px;
+            }
+           
+        }
+    }
+    @media (max-width: $md) {
+        &+& {
+            margin-top: 25px;
+            margin-left: 0;
+        }
+    }
 }
 .choice__row-el-title {
     font-family: Gilroy;
@@ -71,4 +101,7 @@
     font-size: 14px;
     color: $purple;
     width: 247px;
+    @media (max-width: $sm) {
+        width: 220px;
+    }
 }

@@ -8,6 +8,7 @@ import NextProject from "./Components/Main/Main_NextProject";
 import Business from "./Components/Main/Main_Business";
 import Information from "./Components/Main/Main_Information";
 import Reasons from "./Components/Main/Main_Reasons";
+import Footer from "./Components/Main/Main_Footer.jsx";
 function App() {
     return (
         <>
@@ -28,6 +29,7 @@ function App() {
                 <Business/>
                 <Information/>
                 <Reasons/>
+                <Footer/>
             </div>
         </>
     );
